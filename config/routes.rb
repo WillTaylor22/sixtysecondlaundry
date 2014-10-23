@@ -1,4 +1,7 @@
 Drycleanio::Application.routes.draw do
+  get "pages/home"
+  get "pages/book"
+  get "pages/thankyou"
   resources :products
 
   # The priority is based upon order of creation: first created -> highest priority.
